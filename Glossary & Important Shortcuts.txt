@@ -1,0 +1,175 @@
+GLOSSARY
+
+Actor - anything that can be added to a Level
+
+Anchor - a way to specify where on the edge of the panel the location of a Widget should be measured from, in the scenario that the window size or screen size changes
+
+Asset Window - contains the folders and assets for the current project
+
+attenuation - the strength of a signal; lights with higher attenuation will have their light travel farther; sounds with higher attenuation can be heard from farther away
+
+barn doors - flaps used on studio lights to make subtle adjustments to the lighting by adjusting the angle of the flaps
+
+Blueprint - an asset that contains data and instructions
+
+Blueprint Class - Blueprint for any Actor or asset that isn’t a Level
+
+Brush - an Actor used to represent 3D space; commonly used to build a “rough draft” of a Level
+
+Character - type of Pawn that is meant to have bipedal movement
+
+collision - 1.) the act of two objects colliding with one another  2.) an invisible volume that is used as the bounds of an Actor
+
+Component - object or functionality that you can attach to an Actor
+
+Content Browser - panel that is used for storing and organizing content that you can add to your game
+
+Content Drawer - button that toggles the visibility of the Content Browser on and off
+
+Controller - an Actor that is used to Possess a Pawn and control its movement and actions
+
+cooking - a process in which all of a Project’s assets, like Meshes, Materials, audio, etc. are converted into a format that can be read by the target platform; one of the steps in the packaging process
+
+damping - the amount of drag/friction applied to the movement of an object
+
+Details Panel - panel in certain sub-editors, such as the Level Editor, that allows you to view and edit the details of whatever object is currently selected, such as the object’s size and location.
+
+Directional Light  - Actor used to emulate light coming from an extremely long distance away, such as the sun or moon
+
+entry node - the node that will fire first whenever a function is called
+
+FPS - frames per second; the number of still images rendered every second; the higher this number is, the smoother a video image will appear
+
+function - a procedure or a routine meant to carry out a specific task or series of tasks
+
+Game Mode - an Actor that can be used to define and enforce the game’s set of rules
+
+HUD - heads up display
+
+inheritance - computer science concept in which a child class inherits the variables and functions of a parent class
+
+K-DOP - a collision volume with beveled edges that makes the volume tighter around the mesh
+
+Level -  a collection of objects and their properties that together define an area of gameplay
+
+Level Blueprint - a Blueprint used to hold data and instructions for a particular Level
+
+Level Editor - sub-editor used to edit Levels; it is the default editor for the Unreal Editor
+
+Light Actor - an Actor that will generate visible light from wherever it is placed in the Level
+
+local space - axes of the widgets will be oriented to the Actor itself, so they will change when the Actor is rotated
+
+Material - an asset that you can apply to an Actor to make it look like it’s made out of a certain substance
+
+mesh - a 3D object
+
+migrate - copy assets, and their dependencies, to another project
+
+packaging - the process that prepares your game to run on a specific platform
+
+Pawn - an Actor that can be controlled, either by a human player or the computer
+
+PlayerStart Actor - an Actor used to indicate where in the Level the player should start
+
+Point Light - Actor that will produce light that emanates in all directions
+
+Project - stores all the information for an individual game
+
+Property Matrix - tool used to compare and edit the values of properties of multiple Actors at once
+
+Rect Light - Actor that projects lights out of a rectangular plane
+
+Return Node - the last node of a function
+
+Skeletal Mesh - a mesh with moving parts
+
+Sky Light Actor - Actor used to emulate the indirect light that gets reflected off of the atmosphere, and other distant objects
+
+Sound Cue - asset that can be used to combine sounds and/or add effects to them
+
+Sound Wave - asset that contains a .wav file
+
+Sources Panel - contains the folder directory for the Content Browser
+
+Spot Light - Actor that will emit light in the shape of a cone
+
+Static Mesh - a mesh with no moving parts
+
+Toolbar - a row of buttons across the top of certain sub-editors that gives you quick access to common features
+
+UMG - Unreal Motion Graphics, a visual tool for creating user interface elements
+
+Unreal Editor - an application for creating games that can run on the Unreal Engine
+
+Unreal Engine - an application that is used to run games
+
+variable - what Blueprints use to store data
+
+Viewport - area in the middle of the Level Editor used to view and edit your Level visually
+
+Volume - 3D area of space that is invisible to the player and serves a specific purpose depending on its type
+
+wireframe - three-dimensional model in which only the lines and vertices of an object are represented
+
+World Outliner - panel in the Level Editor used to list and group the objects in your Level in a way that makes them easy to find when you want to select and edit them
+
+world space - axes of the widgets will be oriented to the world, and thus won’t change, even if the Actor is rotated
+
+
+
+IMPORTANT SHORTCUTS
+
+Ctrl+N - New Level
+
+Ctrl+O - Open Level
+
+Ctrl+P - Open Asset
+
+Ctrl+S - Save Current Level
+
+Ctrl+Alt+S - Save Current Level As
+
+Ctrl+Shift+S - Save All
+
+F11 - fullscreen the Viewport (Immersive Mode)
+
+W - switch to the Translation Widget
+
+E - switch to the Rotation Widget
+
+R - switch to the Scaling Widget
+
+Q - disable all widgets
+
+Ctrl+`(backtick) - toggle between world space and local space
+
+End - snap the selected Actor onto the nearest surface
+
+F - focus the camera on whatever Actor is selected
+
+G - toggle Game View on and off
+
+Ctrl+G - group selected Actors
+
+Shift+G - ungroup selected Actors
+
+Ctrl+W - make a copy of the selected Actor
+
+Ctrl+L+mouse - change the rotation of the Directional Light Actor
+
+Shift+1-6 - change the editing mode of the Level Editor
+
+Ctrl+Shift+P - pilot the selected Light Actor in the Viewport
+
+Ctrl+0-9 - set a camera bookmark
+
+0-9 - recall a camera bookmark
+
+Shift+J - Select All Adjacent Surfaces
+
+C - create a comment (inside a graph)
+
+Ctrl+C - copy selected node(s)
+
+Ctrl+V - paste copied node(s)
